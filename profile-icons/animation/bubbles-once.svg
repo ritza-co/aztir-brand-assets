@@ -1,0 +1,369 @@
+<svg version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 200 200" xml:space="preserve">
+<style>
+.bubbles circle {
+  stroke: #de8c22;
+  fill: none;
+}
+.bubbles > g > g:nth-of-type(3n) circle {
+  stroke: #c37827;
+}
+.bubbles > g > g:nth-of-type(4n) circle {
+  stroke: #a8652c;
+}
+
+.bubbles-large {
+  overflow: visible;
+}
+.bubbles-large > g {
+  -webkit-transform: translateY(390px);
+          transform: translateY(390px);
+  opacity: 0;
+  will-change: transform, opacity;
+}
+.bubbles-large g:nth-of-type(1) {
+  -webkit-animation: up 6.5s;
+          animation: up 6.5s;
+}
+.bubbles-large g:nth-of-type(1) g {
+  -webkit-transform: translateX(68px);
+          transform: translateX(68px);
+}
+.bubbles-large g:nth-of-type(1) circle {
+  -webkit-animation: wobble 3s ease-in-out;
+          animation: wobble 3s ease-in-out;
+}
+.bubbles-large g:nth-of-type(2) {
+  -webkit-animation: up 5.25s 250ms;
+          animation: up 5.25s 250ms;
+}
+.bubbles-large g:nth-of-type(2) g {
+  -webkit-transform: translateX(88px);
+          transform: translateX(88px);
+}
+.bubbles-large g:nth-of-type(2) circle {
+  -webkit-animation: wobble 3s ease-in-out;
+          animation: wobble 3s ease-in-out;
+}
+.bubbles-large g:nth-of-type(3) {
+  -webkit-animation: up 6s 750ms;
+          animation: up 6s 750ms;
+}
+.bubbles-large g:nth-of-type(3) g {
+  -webkit-transform: translateX(136px);
+          transform: translateX(136px);
+}
+.bubbles-large g:nth-of-type(3) circle {
+  -webkit-animation: wobble 3s ease-in-out;
+          animation: wobble 3s ease-in-out;
+}
+.bubbles-large g:nth-of-type(4) {
+  -webkit-animation: up 5.5s 1.5s;
+          animation: up 5.5s 1.5s;
+}
+.bubbles-large g:nth-of-type(4) g {
+  -webkit-transform: translateX(100px);
+          transform: translateX(100px);
+}
+.bubbles-large g:nth-of-type(4) circle {
+  -webkit-animation: wobble 3s ease-in-out;
+          animation: wobble 3s ease-in-out;
+}
+.bubbles-large g:nth-of-type(5) {
+  -webkit-animation: up 6.5s 4s;
+          animation: up 6.5s 4s;
+}
+.bubbles-large g:nth-of-type(5) g {
+  -webkit-transform: translateX(132px);
+          transform: translateX(132px);
+}
+.bubbles-large g:nth-of-type(5) circle {
+  -webkit-animation: wobble 3s ease-in-out;
+          animation: wobble 3s ease-in-out;
+}
+
+.bubbles-small {
+  overflow: visible;
+}
+.bubbles-small > g {
+  -webkit-transform: translateY(132px);
+          transform: translateY(132px);
+  opacity: 0;
+  will-change: transform, opacity;
+}
+.bubbles-small g circle {
+  -webkit-transform: scale(0);
+          transform: scale(0);
+}
+.bubbles-small g:nth-of-type(1) {
+  -webkit-animation: up 5.25s;
+          animation: up 5.25s;
+}
+.bubbles-small g:nth-of-type(1) g {
+  -webkit-transform: translateX(350px);
+          transform: translateX(350px);
+}
+.bubbles-small g:nth-of-type(1) circle {
+  -webkit-animation: wobble 3s ease-in-out;
+          animation: wobble 3s ease-in-out;
+}
+.bubbles-small g:nth-of-type(2) {
+  -webkit-animation: up 5.75s;
+          animation: up 5.75s;
+}
+.bubbles-small g:nth-of-type(2) g {
+  -webkit-transform: translateX(146px);
+          transform: translateX(146px);
+}
+.bubbles-small g:nth-of-type(2) circle {
+  -webkit-animation: wobble 3s ease-in-out;
+          animation: wobble 3s ease-in-out;
+}
+.bubbles-small g:nth-of-type(3) {
+  -webkit-animation: up 5.25s 250ms;
+          animation: up 5.25s 250ms;
+}
+.bubbles-small g:nth-of-type(3) g {
+  -webkit-transform: translateX(68px);
+          transform: translateX(68px);
+}
+.bubbles-small g:nth-of-type(3) circle {
+  -webkit-animation: wobble 3s 250ms ease-in-out;
+          animation: wobble 3s 250ms ease-in-out;
+}
+.bubbles-small g:nth-of-type(4) {
+  -webkit-animation: up 5.75s 325ms;
+          animation: up 5.75s 325ms;
+}
+.bubbles-small g:nth-of-type(4) g {
+  -webkit-transform: translateX(180px);
+          transform: translateX(180px);
+}
+.bubbles-small g:nth-of-type(4) circle {
+  -webkit-animation: wobble 3s 325ms ease-in-out;
+          animation: wobble 3s 325ms ease-in-out;
+}
+.bubbles-small g:nth-of-type(5) {
+  -webkit-animation: up 6s 125ms;
+          animation: up 6s 125ms;
+}
+.bubbles-small g:nth-of-type(5) g {
+  -webkit-transform: translateX(350px);
+          transform: translateX(350px);
+}
+.bubbles-small g:nth-of-type(5) circle {
+  -webkit-animation: wobble 3s 250ms ease-in-out;
+          animation: wobble 3s 250ms ease-in-out;
+}
+.bubbles-small g:nth-of-type(6) {
+  -webkit-animation: up 5.13s 250ms;
+          animation: up 5.13s 250ms;
+}
+.bubbles-small g:nth-of-type(6) g {
+  -webkit-transform: translateX(130px);
+          transform: translateX(130px);
+}
+.bubbles-small g:nth-of-type(6) circle {
+  -webkit-animation: wobble 3s 125ms ease-in-out;
+          animation: wobble 3s 125ms ease-in-out;
+}
+.bubbles-small g:nth-of-type(7) {
+  -webkit-animation: up 6.25s 350ms;
+          animation: up 6.25s 350ms;
+}
+.bubbles-small g:nth-of-type(7) g {
+  -webkit-transform: translateX(94px);
+          transform: translateX(94px);
+}
+.bubbles-small g:nth-of-type(7) circle {
+  -webkit-animation: wobble 3s 325ms ease-in-out;
+          animation: wobble 3s 325ms ease-in-out;
+}
+.bubbles-small g:nth-of-type(8) {
+  -webkit-animation: up 7s 200ms;
+          animation: up 7s 200ms;
+}
+.bubbles-small g:nth-of-type(8) g {
+  -webkit-transform: translateX(64px);
+          transform: translateX(64px);
+}
+.bubbles-small g:nth-of-type(8) circle {
+  -webkit-animation: wobble 3s 325ms ease-in-out;
+          animation: wobble 3s 325ms ease-in-out;
+}
+.bubbles-small g:nth-of-type(9) {
+  -webkit-animation: up 6.25s 233ms;
+          animation: up 6.25s 233ms;
+}
+.bubbles-small g:nth-of-type(9) g {
+  -webkit-transform: translateX(45px);
+          transform: translateX(45px);
+}
+.bubbles-small g:nth-of-type(9) circle {
+  -webkit-animation: wobble 3s 275ms ease-in-out;
+          animation: wobble 3s 275ms ease-in-out;
+}
+.bubbles-small g:nth-of-type(10) {
+  -webkit-animation: up 6s 900ms;
+          animation: up 6s 900ms;
+}
+.bubbles-small g:nth-of-type(10) g {
+  -webkit-transform: translateX(142px);
+          transform: translateX(142px);
+}
+.bubbles-small g:nth-of-type(10) circle {
+  -webkit-animation: wobble 2s 905ms ease-in-out;
+          animation: wobble 2s 905ms ease-in-out;
+}
+
+@-webkit-keyframes wobble {
+  33% {
+    -webkit-transform: translateX(-50px);
+            transform: translateX(-50px);
+  }
+  66% {
+    -webkit-transform: translateX(50px);
+            transform: translateX(50px);
+  }
+}
+
+@keyframes wobble {
+  33% {
+    -webkit-transform: translateX(-50px);
+            transform: translateX(-50px);
+  }
+  66% {
+    -webkit-transform: translateX(50px);
+            transform: translateX(50px);
+  }
+}
+
+@-webkit-keyframes up {
+  0% {
+    opacity: 0;
+  }
+  10%, 90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(-200px);
+            transform: translateY(-200px);
+  }
+}
+@keyframes up {
+  0% {
+    opacity: 0;
+  }
+  10%, 90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(-200px);
+            transform: translateY(-200px);
+  }
+}
+
+</style>
+
+<g class="bubbles">
+<g class="bubbles-large" stroke-width="7">
+	<g>
+		<g transform="translate(10 940)">
+			<circle cx="35" cy="35" r="35"/>
+		</g>
+	</g>
+	<g>
+		<g transform="translate(373 940)">
+			<circle cx="35" cy="35" r="35"/>
+		</g>
+	</g>
+	<g>
+		<g transform="translate(408 940)">
+			<circle cx="35" cy="35" r="35"/>
+		</g>
+	</g>
+	<g>
+		<g transform="translate(621 940)">
+			<circle cx="35" cy="35" r="35"/>
+		</g>
+	</g>
+	<g>
+		<g transform="translate(179 940)">
+			<circle cx="35" cy="35" r="35"/>
+		</g>
+	</g>
+</g>
+
+<g class="bubbles-small" stroke-width="4">
+	<g>
+		<g transform="translate(147 984)">
+			<circle cx="15" cy="15" r="15"/>
+		</g>
+	</g>
+	<g>
+		<g transform="translate(255 984)">
+			<circle cx="15" cy="15" r="15"/>
+		</g>
+	</g>
+	<g>
+		<g transform="translate(573 984)">
+			<circle cx="15" cy="15" r="15"/>
+		</g>
+	</g>
+	<g>
+		<g transform="translate(429 984)">
+			<circle cx="15" cy="15" r="15"/>
+		</g>
+	</g>
+	<g>
+		<g transform="translate(91 984)">
+			<circle cx="15" cy="15" r="15"/>
+		</g>
+	</g>
+	<g>
+		<g transform="translate(640 984)">
+			<circle cx="15" cy="15" r="15"/>
+		</g>
+	</g>
+	<g>
+		<g transform="translate(321 984)">
+			<circle cx="15" cy="15" r="15"/>
+		</g>
+	</g>
+	<g>
+		<g transform="translate(376 984)">
+			<circle cx="15" cy="15" r="15"/>
+		</g>
+	</g>
+	<g>
+		<g transform="translate(376 984)">
+			<circle cx="15" cy="15" r="15"/>
+		</g>
+	</g>
+	<g>
+		<g transform="translate(497 984)">
+			<circle cx="15" cy="15" r="15"/>
+		</g>
+	</g>
+</g>
+</g>
+<g id="fade" transform="translate(10 10) scale(0.9)">
+
+  
+  <defs id="defs134315"/>
+  <linearGradient id="3d_gradient2-logo-52aa3ec2-e1d7-476f-82be-95c7e152bd00" x1="30%" y1="120%" x2="-10%" y2="30%" spreadMethod="pad">
+    <stop offset="0%" stop-color="#ffffff" stop-opacity="1" id="stop134292"/>
+    <stop offset="100%" stop-color="#000000" stop-opacity="1" id="stop134294"/>
+  </linearGradient>
+  <linearGradient id="3d_gradient3-logo-52aa3ec2-e1d7-476f-82be-95c7e152bd00" x1="30%" y1="120%" x2="-10%" y2="30%" spreadMethod="pad" gradientTransform="rotate(-30)">
+    <stop offset="0%" stop-color="#ffffff" stop-opacity="1" id="stop134297"/>
+    <stop offset="50%" stop-color="#cccccc" stop-opacity="1" id="stop134299"/>
+    <stop offset="100%" stop-color="#000000" stop-opacity="1" id="stop134301"/>
+  </linearGradient>
+  <path id="path134348" style="font-style:normal;font-weight:normal;font-size:72px;line-height:1;font-family:'Nothing You Could Do';font-variant-ligatures:none;text-align:center;text-anchor:middle;fill:#f9a01e;stroke:#f9a01e;stroke-width:0;stroke-linejoin:miter;stroke-miterlimit:2" d="m 46.08166,157.50618 q -0.367713,-0.24514 -1.103139,-1.22569 -0.857974,-0.85799 -1.348253,-1.83855 -0.490278,-0.98055 -0.367713,-1.71597 0,-0.73542 1.34827,-0.73542 2.573957,3.55452 7.231592,2.69653 4.657652,-0.85799 10.050713,-4.28993 5.393062,-3.30938 10.908688,-8.4573 5.638209,-5.02536 10.050714,-10.05071 4.535069,-5.02535 7.354174,-9.07015 2.94167,-4.04479 2.94167,-5.39306 0,-0.36771 -0.980557,-1.10313 -0.980556,-0.85798 -2.328826,-1.71597 -1.225705,-0.85799 -2.328826,-1.5934 -1.103122,-0.73542 -1.34827,-1.10313 0.367713,-1.2257 2.328826,-1.83854 1.961113,-0.73542 4.412505,-1.2257 2.451391,-0.61285 4.780218,-1.10313 2.451394,-0.61284 3.677074,-1.47083 6.4962,-9.437858 11.2764,-16.914601 4.90279,-7.599313 9.19273,-14.830919 4.4125,-7.354174 8.94757,-15.076056 4.53509,-7.721884 10.41843,-17.40488 1.5934,-2.69653 2.57395,-1.838544 0.98056,0.857988 1.47084,4.167365 0.49028,3.30938 0.61284,8.457302 0.12255,5.025351 0,10.908691 -0.12254,5.883339 -0.49028,12.011818 -0.24513,6.128479 -0.61284,11.276401 -0.24515,5.147922 -0.49028,8.947579 -0.12254,3.677088 0,4.780214 0.49028,6.25105 0.61285,10.90869 0.24514,4.53507 1.2257,8.4573 0.98056,3.79966 3.30937,7.47675 2.45139,3.55451 7.35417,7.84445 -4.04479,1.34826 -6.74131,-0.24514 -2.57398,-1.47084 -4.28994,-4.53508 -1.5934,-3.1868 -2.69654,-7.2316 -0.98056,-4.16737 -1.96111,-7.96702 -0.85798,-3.92223 -2.08368,-6.74133 -1.10312,-2.94167 -3.06424,-3.79966 -0.12255,0 -0.73542,0 -0.49028,-0.12256 -1.22569,-0.12256 -0.61284,0 -1.22571,0.12256 -0.61284,0 -0.85797,0 -1.10314,0.24514 -4.16737,0.98056 -2.94167,0.73542 -6.49619,1.5934 -3.55451,0.85799 -6.86389,1.71598 -3.18682,0.85799 -4.65766,1.22569 -3.06423,0.85799 -6.49618,3.92223 -3.309381,3.06424 -7.109025,7.47675 -3.677095,4.28993 -7.721887,9.43785 -3.922226,5.14792 -8.089601,10.05071 -4.167356,4.90278 -8.457296,9.07015 -4.289939,4.16736 -8.579861,6.74132 -4.289939,2.57396 -8.579879,2.8191 -4.412504,0.36771 -8.579861,-2.45139 z m 66.4327,-53.93061 q 0.24515,0.12257 1.2257,0.12257 1.10313,0 1.47084,-0.12257 2.20624,-0.36771 5.51563,-0.85799 3.30938,-0.49028 6.61874,-1.10312 3.30939,-0.73542 6.12849,-1.59341 2.81911,-0.980555 3.92223,-2.08368 0,0 0.36771,-2.573962 0.3677,-2.573961 0.85797,-6.496187 0.49028,-4.044797 0.98056,-8.825009 0.61286,-4.902783 1.10314,-9.560427 0.49028,-4.657644 0.73541,-8.57987 0.36771,-4.044797 0.49028,-6.251049 -1.34827,-0.612847 -3.55452,3.186809 -2.20626,3.677087 -5.76077,10.173275 -3.43195,6.496187 -8.4573,15.198627 -4.90278,8.57987 -11.64411,17.895153 z" stroke-miterlimit="2"/>
+
+</g>
+
+
+</svg>
